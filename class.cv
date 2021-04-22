@@ -1,0 +1,26 @@
+using System.IO;
+using System;
+    {
+        class Student
+        
+        
+        public int rollnumber { get; set; }
+        public string name { get; set; }
+        public string gender { get; set; }
+        
+        static void main()
+        {
+         Student student=  new student();
+         student.rollnumber =121;
+         student.name  = "ROZARIO";
+         student.gender= "male";
+         Console.WriteLine(student.rollnumber+\t student.name+\t student.gender )
+            
+            
+          
+        }
+
+     
+     
+    }
+    
